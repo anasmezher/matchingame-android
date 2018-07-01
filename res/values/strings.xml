@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">mtching Game</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_freeplay">Freeplay</string>
+    <string name="title_activity_playagainstime">Playagainstime</string>
+    <string name="title_activity_multiplyer">Multiplyer</string>
+    <string name="title_activity_playlayout">Playlayout</string>
+
+</resources>

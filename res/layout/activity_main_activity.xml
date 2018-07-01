@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/b1"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Welcome"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnfreeplay"
+        
+        android:layout_marginBottom="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbackground"
+        android:text="Free Play" />
+    <Button
+        android:id="@+id/btnagainsttime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/buttonbackground"
+        android:text="Play against time" />
+        <Button
+        android:id="@+id/btnmultyplyer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbackground"
+        android:text="Multi player" />
+</LinearLayout>

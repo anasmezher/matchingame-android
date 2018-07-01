@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bfree"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Welcome To Free Play Messions "
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/btnfree33"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn3x3"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/btnfree44"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn4x4"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/btnfree55"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn5x5"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/btnfree66"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn6x6"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/backinfree"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@drawable/backbtn" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
